@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{.Title}}</title>
+</head>
+<body>
+{{/* This is comment in go template */}}
+{{if ge .FinalValue 80}}
+    <h1>Selamat Anda Lulus</h1>
+{{else}}
+    <h1>Silahkan Coba Lagi</h1>
+{{end}}
+</body>
+</html>
